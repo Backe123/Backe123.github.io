@@ -7,6 +7,7 @@ background-color:pink;
 
 
 
+
 #wrapper{
 
   margin-left: auto;
@@ -63,8 +64,6 @@ text-decoration: underline;
 }
 
 
-
-
 a{
 text-decoration: none;
 font-size: 20px;
@@ -87,7 +86,40 @@ color:black;
   a:active {
       color: black;
   }
+
+
   .dropdown {
-  position: relative;
-  display: inline-block;
+
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display:none;
+    position: absolute;
+    background-color:#C72DFF;
+    width:80px;
+    height:150px;
+
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+p a{
+text-decoration: none;
+font-size:15px;
+color: black
+}
+
+p a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+span{
+text-decoration:none;
+font-size: 20px
+
 }
