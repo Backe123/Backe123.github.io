@@ -2,3 +2,24 @@ body {
 	background-image: url('bilder/Bakgrund.jpg');
 
 }
+
+#wrapper {
+	height: 1000px;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+  padding-top: 300px;
+  height:20px;
+  width: 100%;
+  background-image: url('bilder/Logga.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav{
+	width: 800px;
+	height: 60px;
+	background-color: #4692c6;
+}
