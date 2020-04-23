@@ -1,13 +1,12 @@
 body {
 	background-image: url('bilder/Bakgrund.jpg');
-
 }
 
 #wrapper {
-	height: 1000px;
-	width:800px;
+  width: 64%;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 header {
   padding-top: 300px;
@@ -19,7 +18,17 @@ header {
 }
 
 nav{
-	width: 800px;
-	height: 60px;
+	width: 100%;
+	height: 535px;
 	background-color: #4692c6;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.navbar{
+  background-color: black;
+  font-size: 30px;
+	font-family: Arial;
+  width: 100%;
+
 }
