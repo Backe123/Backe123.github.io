@@ -38,6 +38,9 @@ nav{
 a:link {
   text-decoration: none;
 }
+a:link {
+text-decoration-color: black;
+}
 
 
 .dropdown {
@@ -65,7 +68,6 @@ color: black;
 
 p a:hover {
 color: blue;
-background-color: transparent;
 }
 
 span{
