@@ -29,17 +29,14 @@ nav{
   background-color: black;
   font-size: 30px;
   width: 100%;
-	text-decoration:none;
-	text-decoration-color: white;
+
 
 }
 
 
 a:link {
   text-decoration: none;
-}
-a:link {
-text-decoration-color: black;
+  color: white;
 }
 
 
