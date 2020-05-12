@@ -6,7 +6,7 @@ body {
 #wrapper {
   width: 64%;
   margin: auto;
-	
+
 
 }
 header {
@@ -16,7 +16,19 @@ header {
   background-image: url('bilder/Logga.jpg');
   background-repeat: no-repeat;
   background-position: center;
+
 }
+
+video{
+
+	height: 240px;
+  margin-left: 30%;
+	width: 40%;
+
+
+}
+
+
 nav{
 	grid-area: nav;
 	height: 535px;
