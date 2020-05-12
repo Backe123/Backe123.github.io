@@ -6,9 +6,8 @@ body {
 #wrapper {
   width: 64%;
   margin: auto;
-
-
 }
+
 header {
   padding-top: 350px;
   height:90px;
@@ -21,9 +20,10 @@ header {
 
 video{
 
-	height: 240px;
-  margin-left: 30%;
-	width: 40%;
+  padding-top: 100px;
+	padding-bottom: 150px;
+  margin-left: 15%;
+	width: 70%;
 
 
 }
@@ -31,7 +31,7 @@ video{
 
 nav{
 	grid-area: nav;
-	height: 535px;
+	height: 700px;
 	background-color: #4692c6;
 
 }
