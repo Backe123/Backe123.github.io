@@ -1,5 +1,7 @@
 body {
 	background-image: url('bilder/Bakgrund.jpg');
+	background-repeat: no-repeat;
+  background-color: blue;
 
 }
 
@@ -20,24 +22,29 @@ header {
 
 video{
 
-  padding-top: 100px;
-	padding-bottom: 150px;
+	padding-top: 90px;
   margin-left: 15%;
 	width: 70%;
 
 
 }
 
-
 nav{
 	grid-area: nav;
-	height: 700px;
+	height: 100px;
 	background-color: #4692c6;
+
+
 
 }
 .navbar{
   background-color: black;
   font-size: 30px;
+}
+main {
+  grid-area: main;
+  background-color: #4692c6;
+  height: 600px; // Ändrar längden
 }
 
 
