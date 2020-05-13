@@ -44,7 +44,7 @@ nav{
 main {
   grid-area: main;
   background-color: #4692c6;
-  height: 600px; // Ändrar längden
+  height: 600px; 
 }
 
 
