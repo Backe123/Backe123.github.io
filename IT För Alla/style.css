@@ -66,7 +66,7 @@ a{
 
 
 /* Hjälpknapp */
-.dropbtn {
+.dropknapp {
   background-color: black;
   color: white;
   padding: 16px;
@@ -74,8 +74,8 @@ a{
   font-size: 16px;
   border: none;
   cursor: pointer;
+	display: none;
 }
-
 
 /* Behövs för att placera innehållet i dropdown */
 .dropdown {
@@ -84,7 +84,7 @@ a{
 }
 
 /* Dropdown innehåll */
-.dropdown-content {
+.dropdown-innehåll {
   display: none;
   position: absolute;
 	min-width: 68px;
@@ -94,7 +94,7 @@ a{
 }
 
 /* länkar i dropdown*/
-.dropdown-content a {
+.dropdown-innehåll a {
   color: black;
   font-size: 15px;
 	padding: 5px;
@@ -103,7 +103,7 @@ a{
 }
 
 /* Ändrar färg när man håller på en länk i dropdown med musen*/
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-innehåll a:hover {background-color: #ddd}
 
 /*visar listan(dropdown)*/
 .show {display:block;}
