@@ -43,12 +43,16 @@ video{
 	width: 70%;
 }
 
-.Nollställ{
+
+
+#Nollställ{
 	padding-top: 20px;
   margin-left: 1px;
 	width: 100%;
 
 }
+
+
 
 nav{
 	grid-area: nav;

@@ -1,5 +1,3 @@
-
-
 $(".dropknapp").show(); // Den här syns endast när javascriptet är på.
 $(".dropdown-innehåll").css("overflow, hidden");
 
@@ -29,3 +27,17 @@ $(".dropknapp").click(function(){
     }
 
 }
+
+$("#section2").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
+
+  $('html, body').animate({
+        scrollTop: $("#section1").offset().top
+    }, 1000);
+});
+
+$("#section1").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
+
+  $('html, body').animate({
+        scrollTop: $("#section2").offset().top
+    }, 1000);
+});
