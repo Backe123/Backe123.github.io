@@ -48,3 +48,10 @@ $("#list").click(function(){  //en funktion som lyssnar efter ett tryck på #sec
         scrollTop: $("#Innehåll").offset().top
     }, 1000);
 });
+
+$("#list2").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
+
+  $('html, body').animate({
+        scrollTop: $("#Innehåll").offset().top
+    }, 1000);
+});
