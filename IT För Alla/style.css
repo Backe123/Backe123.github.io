@@ -38,7 +38,7 @@ header {
 }
 
 video{
-	padding-top: 10px;
+	padding-top: 5%;
   margin-left: 15%;
 	width: 70%;
 }
@@ -46,7 +46,7 @@ video{
 
 
 #Nollställ{
-	padding-top: 20px;
+	padding-top: 4px;
   margin-left: 1px;
 	width: 100%;
 
@@ -68,7 +68,7 @@ nav{
 main {
   grid-area: main;
   background-color: #4692c6;
-  height: 1400px;
+  height: 1600px;
 }
 
 a{
@@ -86,13 +86,13 @@ a{
 }
 
 .Iphonerubrik{
- padding-top: 160px;
+ padding-top: 40%;
  margin-left: 120px;
 
 }
 
 .Nollställrubrik{
-	padding-top: 160px;
+	padding-top: 130px;
   margin-left: 120px;
 
 }

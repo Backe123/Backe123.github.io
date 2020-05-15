@@ -28,10 +28,10 @@ $(".dropknapp").click(function(){
 
 }
 
-$("#Bytaiphone").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
+$("#change").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
 
   $('html, body').animate({
-        scrollTop: $("#Bytaiphone").offset().top
+        scrollTop: $("#Bytaeniphone").offset().top
     }, 1000);
 });
 
@@ -45,6 +45,6 @@ $("#zero").click(function(){  //en funktion som lyssnar efter ett tryck på #sec
 $("#list").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
 
   $('html, body').animate({
-        scrollTop: $("#Innehåll").offset().top 
+        scrollTop: $("#Innehåll").offset().top
     }, 1000);
 });
