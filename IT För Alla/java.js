@@ -28,16 +28,23 @@ $(".dropknapp").click(function(){
 
 }
 
-$("#section2").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
+$("#Bytaiphone").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
 
   $('html, body').animate({
-        scrollTop: $("#section1").offset().top
+        scrollTop: $("#Bytaiphone").offset().top
     }, 1000);
 });
 
-$("#section1").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
+$("#zero").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
 
   $('html, body').animate({
-        scrollTop: $("#section2").offset().top
+        scrollTop: $("#Nollställ").offset().top
+    }, 1000);
+});
+
+$("#list").click(function(){  //en funktion som lyssnar efter ett tryck på #section2
+
+  $('html, body').animate({
+        scrollTop: $("#Innehåll").offset().top 
     }, 1000);
 });

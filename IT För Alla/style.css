@@ -38,7 +38,7 @@ header {
 }
 
 video{
-	padding-top: 90px;
+	padding-top: 10px;
   margin-left: 15%;
 	width: 70%;
 }
@@ -60,7 +60,6 @@ nav{
 	background-color: #4692c6;
 
 
-
 }
 .navbar{
   background-color: black;
@@ -69,7 +68,7 @@ nav{
 main {
   grid-area: main;
   background-color: #4692c6;
-  height: 900px;
+  height: 1400px;
 }
 
 a{
@@ -82,6 +81,21 @@ a{
 
 }
 
+.rubrik{
+	margin-left: 15px;
+}
+
+.Iphonerubrik{
+ padding-top: 160px;
+ margin-left: 120px;
+
+}
+
+.Nollställrubrik{
+	padding-top: 160px;
+  margin-left: 120px;
+
+}
 
 /* Hjälpknapp */
 .dropknapp {
