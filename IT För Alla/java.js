@@ -10,8 +10,10 @@ $(".dropknapp").click(function(){
   console.log("test");
     document.getElementById("minDropdown").classList.toggle("show");
 
+
 });
-    // Den stänger dropdown när man klickar utanför eller en gång till på knappen
+    // Den stänger dropdown när man klickar utanför knappen
+
     window.onclick = function(event) {
       console.log("test");
     if (!event.target.matches('.dropknapp')) {
