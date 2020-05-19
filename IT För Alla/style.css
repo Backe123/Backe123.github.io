@@ -142,3 +142,8 @@ a{
 
 /*visar listan(dropdown)*/
 .show {display:block;}
+
+.intro {
+  font-size: 150%;
+  color: black;
+}

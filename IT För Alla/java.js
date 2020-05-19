@@ -1,11 +1,11 @@
-$(".dropknapp").show(); // Den här syns endast när javascriptet är på.
-$(".dropdown-innehåll").css("overflow, hidden");
+ // Den här syns endast när javascriptet är på.
 
-
+$(".dropknapp").show();
 /* När användaren klickar på knappen,
 växla mellan att dölja och visa innehållet */
 $(".dropknapp").click(function(){
-  console.log("test");
+
+  $("#minDropdown").addClass("dropdown-innehåll");
     document.getElementById("minDropdown").classList.toggle("show");
 
 
@@ -13,7 +13,7 @@ $(".dropknapp").click(function(){
     // Den stänger dropdown när man klickar utanför knappen
 
     window.onclick = function(event) {
-      console.log("test");
+
     if (!event.target.matches('.dropknapp')) {
 
       var dropdowns = document.getElementsByClassName("dropdown-innehåll");
