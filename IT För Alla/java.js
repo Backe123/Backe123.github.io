@@ -1,11 +1,12 @@
  // Den här syns endast när javascriptet är på.
 
 $(".dropknapp").show();
+  $("#minDropdown").addClass("dropdown-innehåll");
 /* När användaren klickar på knappen,
 växla mellan att dölja och visa innehållet */
 $(".dropknapp").click(function(){
 
-  $("#minDropdown").addClass("dropdown-innehåll");
+
     document.getElementById("minDropdown").classList.toggle("show");
 
 
