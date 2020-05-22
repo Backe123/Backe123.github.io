@@ -1,0 +1,165 @@
+body {
+	background-image: url('bilder/Bakgrund.jpg');
+	background-repeat: no-repeat;
+  background-color: #070129;
+
+
+}
+
+#wrapper {
+	display: grid;
+	grid-template-columns: 20% 30% 30% 20%;
+	grid-template-rows: auto;
+	grid-template-areas:
+	"header header header header"
+	"nav nav nav nav"
+	"aside main main sidebar"
+	"footer footer footer footer";
+}
+
+
+#wrapper {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows:  auto;
+	width: 64%;
+  margin: auto;
+	grid-template-areas:
+	"header"
+	"nav"
+	"main"
+	"footer";
+
+}
+
+#karta{
+
+  width: 80%;
+  height: 500px;
+  border: 5px;
+	margin-left: 10%;
+	margin-top: 25%
+
+}
+
+
+header {
+  padding-top: 350px;
+  height:90px;
+  grid-area: header;
+  background-image: url('bilder/Logga.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+video{
+	padding-top: 5%;
+  margin-left: 15%;
+	width: 70%;
+}
+
+
+
+#Nollställ{
+	padding-top: 4px;
+  margin-left: 1px;
+	width: 100%;
+
+}
+
+
+
+nav{
+	grid-area: nav;
+	height: 100px;
+	background-color: #4692c6;
+
+
+}
+.navbar{
+  background-color: black;
+  font-size: 30px;
+	width: 100%
+
+}
+main {
+  grid-area: main;
+  background-color: #4692c6;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	font-family:Arial;
+
+}
+
+.rubrik{
+	margin-left: 15px;
+}
+
+.Iphonerubrik{
+ padding-top: 40%;
+ margin-left: 120px;
+
+}
+
+.Nollställrubrik{
+	padding-top: 130px;
+  margin-left: 120px;
+
+}
+
+/* Hjälpknapp */
+.dropknapp {
+  background-color: black;
+  color: white;
+  padding: 16px;
+	min-width: 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+	display: none;
+}
+
+/* Behövs för att placera innehållet i dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown innehåll */
+.dropdown-innehåll {
+  display: none;
+  position: absolute;
+	min-width: 75px;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* länkar i dropdown*/
+.dropdown-innehåll a {
+  color: black;
+  font-size: 15px;
+	padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Ändrar färg när man håller på en länk i dropdown med musen*/
+.dropdown-innehåll a:hover {background-color: #ddd}
+
+/*visar listan(dropdown)*/
+.show {display:block;}
+
+.intro {
+  font-size: 150%;
+  color: black;
+}
