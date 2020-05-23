@@ -27,7 +27,7 @@ body {
   height: 500px;
   border: 5px;
 	margin-left: 10%;
-	margin-top: 25%
+	margin-top: 1%
 
 }
 
@@ -57,7 +57,17 @@ video{
 
 }
 
+#list2{
+	margin-right: 5%;
+}
+#list{
+	padding-left:2px;
+}
 
+pre{
+	font-family:Times New Roman;
+	white-space: pre-wrap;
+}
 
 nav{
 	grid-area: nav;
@@ -101,7 +111,7 @@ a{
 
 .Nollställrubrik{
 	padding-top: 130px;
-  margin-left: 120px;
+  margin-left: 35%;
 
 }
 
@@ -152,6 +162,11 @@ a{
 @media only screen and (max-width: 800px){
 	.Iphonerubrik{
 
+	 margin-left: 30%;
+
+	}
+	.Nollställrubrik{
+
 	 margin-left: 25%;
 
 	}
@@ -162,11 +177,7 @@ a{
    font-size: 10px;
 
 	}
-	.Nollställrubrik{
 
-	 margin-left: 25%;
-
-	}
 	.Nollställrubrik{
 	 font-size: 10px;
 
@@ -176,6 +187,12 @@ a{
 	  margin-left: 15%;
 		width: 67%
 
+	}
+	#list2{
+		margin-right: 50%;
+	}
+	#list{
+		margin-right: 50%;
 	}
 	header {
 	  background-image: url('bilder/Logga2.jpg');
