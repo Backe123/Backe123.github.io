@@ -6,17 +6,6 @@ body {
 
 }
 
-#wrapper {
-	display: grid;
-	grid-template-columns: 20% 30% 30% 20%;
-	grid-template-rows: auto;
-	grid-template-areas:
-	"header header header header"
-	"nav nav nav nav"
-	"aside main main sidebar"
-	"footer footer footer footer";
-}
-
 
 #wrapper {
 	display: grid;
@@ -106,7 +95,7 @@ a{
 
 .Iphonerubrik{
  padding-top: 40%;
- margin-left: 120px;
+ margin-left: 40%;
 
 }
 
@@ -159,7 +148,11 @@ a{
 /*visar listan(dropdown)*/
 .show {display:block;}
 
-.intro {
-  font-size: 150%;
-  color: black;
+
+@media only screen and (max-width: 800px){
+	.Iphonerubrik{
+
+	 margin-left: 25%;
+
+	}
 }
