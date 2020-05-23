@@ -156,3 +156,53 @@ a{
 
 	}
 }
+
+@media only screen and (max-width: 500px){
+	.Iphonerubrik{
+   font-size: 10px;
+
+	}
+	.Nollställrubrik{
+
+	 margin-left: 25%;
+
+	}
+	.Nollställrubrik{
+	 font-size: 10px;
+
+	}
+	#wrapper {
+		width: 64%;
+	  margin-left: 25%;
+
+	}
+	header {
+	  background-image: url('bilder/Logga400.jpg');
+		padding-top: 245px;
+    width: 200px;
+	}
+	main {
+	  width: 200px;
+	}
+}
+@media only screen and (max-width: 400px){
+	#wrapper {
+		width: 64%;
+		margin-left: 20%;
+
+	}
+}
+@media only screen and (max-width: 360px){
+	#wrapper {
+		width: 64%;
+		margin-left: 23%;
+
+	}
+}
+@media only screen and (max-width: 320px){
+	#wrapper {
+		width: 64%;
+		margin-left: 18%;
+
+	}
+}
