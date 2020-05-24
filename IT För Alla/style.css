@@ -97,22 +97,23 @@ a{
 	font-family:Arial;
 
 }
-
+/* rubriken innehåll på sidan*/
 .rubrik{
 	margin-left: 15px;
 }
-
+/* rubriken för Byta iphone på sidan*/
 .Iphonerubrik{
  padding-top: 40%;
  margin-left: 40%;
 
 }
-
+/* rubriken för Nollställiphone på sidan*/
 .Nollstallrubrik{
 	padding-top: 130px;
   margin-left: 35%;
 
 }
+/* rubriken för Byta samsung på sidan*/
 .Samsungrubrik{
  padding-top: 4%;
  margin-left: 36%;

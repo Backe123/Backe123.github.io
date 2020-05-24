@@ -1,6 +1,6 @@
 /*jslint browser: true*/ /*global  $*/
- // Den här syns endast när javascriptet är på.
 
+// Den här syns endast när javascriptet är på.
 $(".dropknapp").show();
 $("#minDropdown").addClass("dropdown-innehall");
 /* När användaren klickar på knappen,
@@ -30,7 +30,7 @@ $(".dropknapp").click(function () {
 };
 
 $("#change").click(function () {
-  //en funktion som lyssnar efter ett tryck på #section2
+  //en funktion som lyssnar efter ett tryck på #change
 
     $("html, body").animate({
         scrollTop: $("#Bytaeniphone").offset().top
@@ -38,7 +38,7 @@ $("#change").click(function () {
 });
 
 $("#zero").click(function () {
-  //en funktion som lyssnar efter ett tryck på #section2
+  //en funktion som lyssnar efter ett tryck på #zero
 
     $("html, body").animate({
         scrollTop: $("#Nollstall").offset().top
@@ -46,7 +46,7 @@ $("#zero").click(function () {
 });
 
 $("#list").click(function () {
-  //en funktion som lyssnar efter ett tryck på #section2
+  //en funktion som lyssnar efter ett tryck på #list
 
     $("html, body").animate({
         scrollTop: $("#Innehall").offset().top
@@ -54,11 +54,11 @@ $("#list").click(function () {
 });
 
 $("#list2").click(function () {
-  //en funktion som lyssnar efter ett tryck på #section2
+  //en funktion som lyssnar efter ett tryck på #list2
 
     $("html, body").animate({
         scrollTop: $("#Innehall").offset().top
     }, 1000);
 });
 
- // Den här syns endast när javascriptet är på.
+ 
