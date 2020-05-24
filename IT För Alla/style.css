@@ -113,6 +113,11 @@ a{
   margin-left: 35%;
 
 }
+.Samsungrubrik{
+ padding-top: 4%;
+ margin-left: 36%;
+
+}
 
 /* Hjälpknapp */
 .dropknapp {
@@ -169,6 +174,10 @@ a{
 	 margin-left: 25%;
 
 	}
+	.Samsungrubrik{
+	 margin-left: 30%;
+
+	}
 }
 
 @media only screen and (max-width: 500px){
@@ -179,6 +188,10 @@ a{
 
 	.Nollstallrubrik{
 	 font-size: 10px;
+
+	}
+	.Samsungrubrik{
+	  font-size: 10px;
 
 	}
 	#wrapper {
