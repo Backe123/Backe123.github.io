@@ -14,20 +14,20 @@ $(".dropknapp").click(function () {
 });
     // Den stänger dropdown när man klickar utanför knappen
 
-// window.onclick = function(event) {
-    // if (!event.target.matches(".dropknapp")) {
-        // var dropdowns = document.getElementsByClassName("dropdown-innehall");
-        // var i;
-        // var openDropdown;
-      // for (i = 0; i < dropdowns.length; i+=1) {
-      //   openDropdown = dropdowns[i];
-      //   if (openDropdown.classList.contains("show")) {
-      //     openDropdown.classList.remove("show");
-      //   }
-      // }
-    // }
+   window.onclick = function(event) {
+     if (!event.target.matches(".dropknapp")) {
+         var dropdowns = document.getElementsByClassName("dropdown-innehall");
+        var i;
+        var openDropdown;
+      for (i = 0; i < dropdowns.length; i+=1) {
+        openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains("show")) {
+          openDropdown.classList.remove("show");
+        }
+      }
+    }
 
-// };
+};
 
 $("#change").click(function () {
   //en funktion som lyssnar efter ett tryck på #section2
