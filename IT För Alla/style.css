@@ -50,11 +50,10 @@ video{
 
 
 
-#Nollställ{
+#Nollstall{
 	padding-top: 4px;
   margin-left: 1px;
 	width: 100%;
-
 }
 
 #list2{
@@ -109,7 +108,7 @@ a{
 
 }
 
-.Nollställrubrik{
+.Nollstallrubrik{
 	padding-top: 130px;
   margin-left: 35%;
 
@@ -134,7 +133,7 @@ a{
 }
 
 /* Dropdown innehåll */
-.dropdown-innehåll {
+.dropdown-innehall {
   display: none;
   position: absolute;
 	min-width: 75px;
@@ -144,7 +143,7 @@ a{
 }
 
 /* länkar i dropdown*/
-.dropdown-innehåll a {
+.dropdown-innehall a {
   color: black;
   font-size: 15px;
 	padding: 5px;
@@ -153,7 +152,7 @@ a{
 }
 
 /* Ändrar färg när man håller på en länk i dropdown med musen*/
-.dropdown-innehåll a:hover {background-color: #ddd}
+.dropdown-innehall a:hover {background-color: #ddd}
 
 /*visar listan(dropdown)*/
 .show {display:block;}
@@ -165,7 +164,7 @@ a{
 	 margin-left: 30%;
 
 	}
-	.Nollställrubrik{
+	.Nollstallrubrik{
 
 	 margin-left: 25%;
 
@@ -178,7 +177,7 @@ a{
 
 	}
 
-	.Nollställrubrik{
+	.Nollstallrubrik{
 	 font-size: 10px;
 
 	}
