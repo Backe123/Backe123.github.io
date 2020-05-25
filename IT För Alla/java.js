@@ -19,7 +19,7 @@ $(".dropknapp").click(function () {
          var dropdowns = document.getElementsByClassName("dropdown-innehall");
         var i;
         var openDropdown;
-      for (i = 0; i < dropdowns.length; i+=1) {
+      for (i = 0; i < dropdowns.length; i+=1){
         openDropdown = dropdowns[i];
         if (openDropdown.classList.contains("show")) {
           openDropdown.classList.remove("show");
@@ -60,5 +60,3 @@ $("#list2").click(function () {
         scrollTop: $("#Innehall").offset().top
     }, 1000);
 });
-
- 
